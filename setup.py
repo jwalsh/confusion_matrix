@@ -1,20 +1,17 @@
-
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
-    'author': 'My Name',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
-    'author_email': 'My email.',
+    'description': 'scikit-learn confusion matrix',
+    'author': 'scikit-learn developers',
+    'url': 'https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html',
     'version': '0.1',
     'install_requires': ['nose'],
     'packages': ['confusion_matrix'],
     'scripts': [],
-    'name': 'projectname'
+    'name': 'confusion_matrix'
 }
 
 setup(**config)
